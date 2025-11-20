@@ -27,6 +27,10 @@
         <a href="#Lang-Python" class="nav-link">Python</a>
         <a href="#Lang-CSharp" class="nav-link">C#</a>
         <a href="#Lang-Java" class="nav-link">Java</a>
+        <a href="#Data_Sciences" class="nav-link">Data Sciences</a>
+        <a href="#Intelligent_Apps" class="nav-link">Intelligent Apps</a>
+        <a href="#Dev_Containers" class="nav-link">Dev Containers</a>
+
 
     </nav>
         <section class="main-section" id="Overview">
@@ -304,12 +308,62 @@
 <br>
 <section class="main-section" id="Lang-Java">
     <header>Java</header>
+
     <p>Java support includes enterprise build tools, auto-formatting, and project templates to kickstart frameworks like Spring.</p>
     <p>Install extension: <strong>Extension Pack for Java</strong></p>
+
     <code>javac Main.java</code>
+
+    <br>
+
     <li>Spring Boot support</li>
     <li>Maven + Gradle integration</li>
     <li>Debugger + IntelliSense</li>
+</section>
+<br>
+<br>
+    <section class="main-section" id="Data Sciences">
+        <header>Data Sciences</header>
+        <p>VS Code dominates the data science space because it integrates cleanly with Python, Jupyter, notbooks, AI models, and data visualization framework. The editor treats notebooks like real code files instead of isolated experiments.</p>
+        <br>
+        <p>Data Scientists get full environment control and reproducible workflors through Conda, virtualenv, or Docker containers, allowing consistent setups across teams and machines.</p>
+        
+        <code>docker build -t myapp .</code>
+        <br>
+        <li>Docker Explorer panel for images + containers</li>
+        <li>Kuburnetes resoure viewer</li>
+        <li>Debug apps running inside containers</li>
+
+    </section>
+    <br>
+    <br>
+
+        <section class="main-section" id="Intelligent_Apps">
+            <header>Intelligent Apps</header>
+            <p>AI-powered apps are easier to build in VS Code thanks to Python + JavaScript tooling and integrated machine learning extensions. You can prototype, experiment, and deoloy AI models withouth leaving the workspace.</p>
+            <br>
+            <p>Extensions like Github Copilot even generated code snippets, documentation, and logic on demand, accelerating development dramatically.</p>
+
+            <code>pip install trnasformers torch</code>
+            <br>
+            <li>Github Copilot AI assistance</li>
+            <li>Local and cloud-based model development</li>
+            <li>End-to-end ML pipeline support</li>
+        </section>
+    <br>
+    <br>
+        <section class="main-section" id="Dev_Containers">
+    <header>Dev Containers</header>
+
+    <p>Dev Containers solve the “works on my machine” problem by creating isolated development environments inside Docker. VS Code launches full workspaces inside containers with all dependencies preloaded.</p>
+
+    <p>This makes onboarding faster, eliminates version conflicts, and ensures every collaborator uses the exact same tools and settings.</p>
+
+    <code>Ctrl + Shift + P → “Dev Containers: Reopen in Container”</code>
+    <br>
+    <li>Recreates full dev setups from .devcontainer.json</li>
+    <li>Ideal for team collaboration and enterprise workflows</li>
+    <li>Supports databases, runtimes, frameworks, and CLIs</li>
 </section>
 
     </main>

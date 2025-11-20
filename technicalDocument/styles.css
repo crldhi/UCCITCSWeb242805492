@@ -99,3 +99,26 @@ code {
         font-size: 13px;
     }
 }
+
+#Data_Sciences,
+#Container_Tools,
+#Intelligent_Apps,
+#Dev_Containers {
+    border-left: 4px solid #007acc;
+    background-color: #1b1b1b;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 3px;
+}
+
+.main-section ul {
+    padding-left: 25px;
+
+}
+
+.main-section {
+    color: 9cdcfe;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 18px;
+}

@@ -1,20 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StreamBox+ Premium</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header id="header">
-    <img src="https://www.google.com/imgres?q=humidifier%20product%20landing&imgurl=https%3A%2F%2Fimages.ctfassets.net%2F4f3rgqwzdznj%2F10DNYVzKRKHuhWM6ogm29q%2F58eb68ac382486cbfd480e62c88db32c%2Fcloseup_humidifier_indoors_with_plants-693623488.jpg&imgrefurl=https%3A%2F%2Fwww.goodrx.com%2Fwell-being%2Falternative-treatments%2Fhumidifier-benefits-uses%3Fsrsltid%3DAfmBOopeIMLzgX5Tygaq7_HbUprMjWENcj-0Ybw_gaUXX7efz4uOd-EX&docid=vDYAa6ZVqaiyoM&tbnid=SWq6qAqGsI9IyM&vet=12ahUKEwjFuLins4GRAxVUqFYBHe-dHTsQM3oECB0QAA..i&w=2400&h=1350&hcb=2&ved=2ahUKEwjFuLins4GRAxVUqFYBHe-dHTsQM3oECB0QAA" alt="" id="header-img">
-    <nav id="nav-bar">
-        <a href="" class="nav-link"></a>
-        <a href="" class="nav-link"></a>
-        <a href="" class="nav-link"></a>
-    </nav>
 
-    </header>
-    
+  <!-- HEADER -->
+  <header id="header">
+    <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Spotify_logo_without_text.svg" alt="Brand Logo">
+    <nav id="nav-bar">
+      <a class="nav-link" href="#video">Preview</a>
+      <a class="nav-link" href="#features">Features</a>
+      <a class="nav-link" href="#form">Subscribe</a>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <h1>StreamBox+ Premium</h1>
+    <p>Unlimited music. Exclusive podcasts. Zero ads. Go premium or go silent.</p>
+    <iframe id="video" src="https://www.youtube.com/embed/5qap5aO4i9A" allowfullscreen></iframe>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <div class="box"> Ad-free listening</div>
+    <div class="box"> 320kbps high quality audio</div>
+    <div class="box"> Exclusive mixes and podcasts</div>
+  </section>
+
+  <!-- FORM -->
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <h2>Start Premium for only $3.99/mo</h2>
+    <input id="email" type="email" name="email" placeholder="Enter your email" required>
+    <input id="submit" type="submit" value="Join Now">
+  </form>
+
 </body>
 </html>
